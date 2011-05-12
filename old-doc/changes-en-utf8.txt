@@ -1,0 +1,107 @@
+2005-01-10
+
+- cwttf version 1.0 release.
+
+2005-01-08
+
+- cwttf-v1.0 最後檢查。
+
+2005-01-05
+
+- 內部釋出 cwttf-v1.0pre2 供測試。
+
+- 調整行間距，並把字寬（glyph width）縮小。
+
+2005-01-01
+
+- 更換粗黑及圓體的英數字為 CM-LGC 的 sans serif 字型。
+
+2004-12-31
+
+- 使用 compound glyph 的方式造字。由各個單獨的部件（radical/stroke
+  component）來組合一個中文字，以方便往後的造字及縮小字型檔大小。
+
+2004-12-30
+
+- 內部釋出 cwttf-v1.0pre1 供測試。已修正 Windows XP Sp2 無法安裝的
+  問題。
+
+2004-12-27
+
+- 整合 Koanughi Un 的 Un-Fonts 韓文字型。多謝 minihair
+  <minihair.bbs@.bbs.sayya.org> 所提供的資訊。
+
+2004-12-27
+
+- 修正中文全型標點符號的配置。目前進行兩種版本，一種置中，另一種置
+  於基線左方。
+
+- 感謝吳聰敏老師、樹林國小黃老師 tiebob <tiebob@mail.slps.tpc.edu.tw>、
+  starflty、Song Huang <Song@ossacc.org> 幫忙提供寶貴意見。
+
+2004-12-23
+
+- 內部釋出 cwming/cwkai/cwheib TTF v1.0 beta2。
+
+2004-12-21
+
+- 內部釋出 cwming.ttf v1.0 beta1 版本供測試。已將 Alexej Kryukov
+  <basileia@yandex.ru> 的 CM-LGC Type 1 字型整合進去，當做預設的
+  英數字。
+
+2004-12-20
+
+- 內部釋出 cwming.ttf v1.0 alpha4 版本供測試。
+
+2004-12-19
+
+- 內部釋出 cwming.ttf v1.0 alpha1 版本供測試。並調整字距太大的問題。
+
+2004-12-18
+
+- 請吳聰敏老師幫忙修正部份 FontForge 無法處理的中文 Type 1 字型。
+  
+- 內部釋出 cwkai.ttf v1.0 alpha 版本供測試。
+
+2004-12-17
+
+- 敲定字型名稱：
+
+  明體                                 
+  cwming.ttf
+  family/ps name：cwTeXMing
+
+  楷體                     
+  cwkai.ttf
+  family/ps name：cwTeXKai
+
+  仿宋
+  cwfsong.ttf
+  family/ps name：cwTeXFangSong
+
+  圓體
+  cwyen.ttf
+  family/ps name：cwTeXYen
+
+  粗黑
+  cwheib.ttf
+  family/ps name：cwTeXHeiBold
+
+- 著手寫轉換的 script。並在 Seventeen 提供的高檔機器開始運作。
+
+2004-12-16
+
+- 和吳聰敏老師討論字型轉換及 license 事宜。原則上以 GNU GPL 來
+  發行，以便有需要的朋友可以散佈及修改，並且方便和多種 GPL 字型
+  整合。
+
+- 找出原 cwTeX Type 1 字型，相對於一般 Unicode Big5 字集 TTF 的
+  漏字。
+
+- 工具決定採用 George Williams 的 FontForge 及 Just van Rossum
+  的 TTX(fonttools)。
+
+2004-12-09
+
+- 開始嘗試把 cwTeX 公開的五套中文繁體 Type 1 字型轉換為一般的
+  Unicode TrueType 字型。
