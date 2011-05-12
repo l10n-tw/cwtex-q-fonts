@@ -1,0 +1,38 @@
+Copyright (c) 1998-2004 Koanughi Un.
+
+Please see the enclosed file COPYING for license information (GPL). If you 
+did not receive this file, see http://www.gnu.org/licenses/gpl.txt.
+
+
+Un-fonts is comes from the HLaTeX as type1 fonts in 1998 by Koaunghi Un,
+he made type1 fonts to use with Korean TeX(HLaTeX [1]) in the late 1990's and
+release it under the GNU GPL license.
+
+It converted to TrueType with the FontForge(PfaEdit) by Won-kyu Park in 2003.
+
+
+
+Core families (9 fonts)
+ * UnBatang, UnBatangBold: serif
+ * UnDotum, UnDotumBold: sans-serif
+ * UnGraphic, UnGraphicBold: sans-serif style
+ * UnPilgi, UnPilgiBold: script
+ * UnGungseo: cursive, brush-stroke
+
+Extra families (10 fonts)
+ * UnPen, UnPenheulim: script
+ * UnTaza: typewriter style
+ * UnBom: decorative
+ * UnShinmun
+ * UnYetgul: old Korean printing style
+ * UnJamoSora, UnJamoNovel, UnJamoDotum, UnJamoBatang
+
+Please send problems and feedback at http://kldp.net/projects/unfonts/
+
+
+Project maintainers:
+
+ * Won-kyu Park <wkpark@kldp.org>
+ * Jungshik Shin <jshin@mailaps.org>
+----
+[1] http://ftp.dante.de/tex-archive/fonts/korean/HLaTeX and other CTAN archives)
