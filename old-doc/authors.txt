@@ -1,0 +1,6 @@
+Tsong-Min Wu <ntut019@ccms.ntu.edu.tw>
+Tsong-Huey Wu <thwu@mail.chna.edu.tw>
+Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+The author of CM-LGC font is Alexej Kryukov <basileia@yandex.ru>.
+The author of Un-fonts is Koanughi Un and Won-kyu Park. 
