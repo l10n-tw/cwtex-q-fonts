@@ -1,0 +1,74 @@
+cwTeX[1] Type 1 font(cwt1)
+Version 1.0
+http://cle.linux.org.tw/fonts/cwttf/type1
+ftp://cle.linux.org.tw/pub/fonts/cwttf/type1/
+
+Copyright (c) 1999,2004 Tsong-Min Wu, Tsong-Huey Wu.
+Copyright (c) 2005 Tsong-Min Wu, Tsong-Huey Wu and Edward G.J. Lee.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+As a special exception, permission is granted to include these font
+programs in a Postscript or PDF file that consists of a document that
+contains text to be displayed or printed using these fonts, regardless
+of the conditions or license applying to the document itself.
+
+This package is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+
+Abstract
+--------
+
+Those Type 1 fonts are transformed from cwTeX[2] Traditional
+Chinese TrueType fonts. This is for LaTeX CJK, do not use in
+cwTeX.
+
+TTF file name  style      PostScript/Family name
+
+[Big5 environment]
+cwming         ming          cwminXX
+cwkai          kai           cwkaiXX
+cwfs           FangSong      cwfsXX
+cwheib         hei(bold)     cwheibXX
+cwyen          yen           cwyenXX
+
+[UTF-8 environment]
+cwmu           ming          cwmuXX
+cwku           kai           cwkuXX
+cwfsu          FangSong      cwfsuXX
+cwhbu          hei(bold)     cwhbuXX
+cwyu           yen           cwyuXX
+[Note] XX is subfont number, LaTeX CJK will take care of automatically.
+
+There are two type of Chinese punctuation, in the center directory
+the Chinese punctuation are put on the center. This is the convention
+of Traditional Chinese in Taiwan and Hong Kong.
+
+In the baseline directory the Chinese punctuation at the baseline, it
+will more consistent when the article have both English and Chinese.
+
+
+And thank to all friends to join discussion.
+
+Bug report please email to Edward G.J. Lee <edt1023@cle.linux.org.tw>, thanks.
+
+Enjoy it! :)
+
+
+
+
+Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+[1] http://ccms.ntu.edu.tw/~ntut019/cwtex/cwtex.html
+[2] http://cle.linux.org.tw/fonts/cwttf/
