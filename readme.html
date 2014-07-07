@@ -2,18 +2,106 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
-<title>Title of the document</title>
+<title>cwtex-q-fonts 說明文件</title>
+
+<style>
+body {
+  font-family: monospace;
+  font-size: large;
+}
+table,th,td {
+  padding: 3px;
+  border: 1px solid black;
+  border-collapse: collapse
+}
+</style> 
+
 </head>
 
 <body>
 
 <h1>歷史與著作權</h1>
 
-<p>cwTeX 字型本身是由 Tsong-Min Wu 及 Tsong-Huey Wu 於1999-2004年間製作，並以 GNU GENERAL PUBLIC LICENSE Version 2 or latter 發佈。在 2005 至 2007 年間，Edward G.J. Lee 對該字型進行過整理。本專案自 2008 年起由 Chen-Pan Liao 開始運作。 </p>
+<p>cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間製作並以 GNU GENERAL PUBLIC LICENSE Version 2 or latter 發佈。在 2005 至 2007 年間，Edward G.J. Lee 對該字型進行過整理。本專案 cwtex-q-fonts 自 2008 年起由 Chen-Pan Liao 開始運作。於 2014 年，Tsong-Min Wu、Tsong-Huey Wu、Edward G.J. Lee 及 Chen-Pan Liao 四人同意將漢字及中文常用標點符號之字符另外獨立並以 SIL Open Font License (Version 1.1) 授出。</p>
+
 
 <h1>目的</h1>
 
 <p>前人所發佈之 cwTeX 字型仍有許多不完美之處，例如字符的寬度或位置不統一。本計劃的主要目的是修正 cwTeX 字型，願能使字型達更高水準。 </p>
+
+
+<h1>字體一覽表</h1>
+<p>目前 cwtex-q-fonts 共有五種字體，分成十個字型檔案，請見下表。</p>
+
+<table>
+<tr>
+  <th>字體種類</th>
+  <th>字型檔名</th>
+  <th>字型全名</th>
+  <th>授權方式</th>
+</tr>
+<tr>
+  <td>中明體</td>
+  <td>cwTeXQMing-Medium</td>
+  <td>cwTeX Q Ming Medium</td>
+  <td>GNU GENERAL PUBLIC LICENSE Version 2 or latter</td>
+</tr>
+<tr>
+  <td>中明體（自 0.3 版）</td>
+  <td>cwTeXQMingZH-Medium</td>
+  <td>cwTeX Q MingZH Medium</td>
+  <td>SIL Open Font License (Version 1.1)</td>
+</tr>
+<tr>
+  <td>中楷體</td>
+  <td>cwTeXQKai-Medium</td>
+  <td>cwTeX Q Kai Medium</td>
+  <td>GNU GENERAL PUBLIC LICENSE Version 2 or latter</td>
+</tr>
+<tr>
+  <td>中楷體（自 0.3 版）</td>
+  <td>cwTeXQKaiZH-Medium</td>
+  <td>cwTeX Q KaiZH Medium</td>
+  <td>SIL Open Font License (Version 1.1)</td>
+</tr>
+<tr>
+  <td>中圓體</td>
+  <td>cwTeXQYuan-Medium</td>
+  <td>cwTeX Q Yuan Medium</td>
+  <td>GNU GENERAL PUBLIC LICENSE Version 2 or latter</td>
+</tr>
+<tr>
+  <td>中圓體（自 0.3 版）</td>
+  <td>cwTeXQYuanZH-Medium</td>
+  <td>cwTeX Q YuanZH Medium</td>
+  <td>SIL Open Font License (Version 1.1)</td>
+</tr>
+<tr>
+  <td>中仿宋體</td>
+  <td>cwTeXQFangsong-Medium</td>
+  <td>cwTeX Q Fangsong Medium</td>
+  <td>GNU GENERAL PUBLIC LICENSE Version 2 or latter</td>
+</tr>
+<tr>
+  <td>中仿宋體（自 0.3 版）</td>
+  <td>cwTeXQFangsongZH-Medium</td>
+  <td>cwTeX Q FangsongZH Medium</td>
+  <td>SIL Open Font License (Version 1.1)</td>
+</tr>
+<tr>
+  <td>粗黑體</td>
+  <td>cwTeXQHei-Bold</td>
+  <td>cwTeX Q Hei Bold</td>
+  <td>GNU GENERAL PUBLIC LICENSE Version 2 or latter</td>
+</tr>
+<tr>
+  <td>粗黑體（自 0.3 版）</td>
+  <td>cwTeXQHeiZH-Bold</td>
+  <td>cwTeX Q HeiZH Bold</td>
+  <td>SIL Open Font License (Version 1.1)</td>
+</tr>
+
+</table>
 
 <h1>修正方針</h1>
 
@@ -39,6 +127,7 @@
 <li><a href="http://code.google.com/p/cwtex-q-fonts/source/browse/trunk?r=28#trunk" rel="nofollow">Version 0.1 (r28)</a>  </li>
 <li><a href="http://code.google.com/p/cwtex-q-fonts/source/browse/trunk?r=36#trunk" rel="nofollow">Version 0.2 (r36)</a>  </li>
 <li><a href="http://code.google.com/p/cwtex-q-fonts/source/browse/trunk?r=41#trunk" rel="nofollow">Version 0.2-1 (r41)</a>  </li>
+<li><a href="http://code.google.com/p/cwtex-q-fonts/source/browse/trunk?r=42#trunk" rel="nofollow">Version 0.3 (r42)</a>  </li>
 </ul>
 
 <h1>沿革</h1>
@@ -53,15 +142,22 @@
 
 <h2>Version 0.2</h2>
 <ul>
-<li>Feb 25, 2012 釋出。 </li>
+<li>Feb. 25, 2012 釋出。 </li>
 <li>將黑體字與圓體字之大小與位置大規模重新安排，以利與其它 cwtex-q-fonts 字體的字高與大小較為一致。 </li>
 <li>明體字極少數字符修正。 </li>
 </ul>
 
 <h2>Version 0.2-1</h2>
 <ul>
-<li>Mar 10, 2014 釋出。 </li>
+<li>Mar. 10, 2014 釋出。 </li>
 <li>修正 cwTeX Q Yuan Medium 之字符「低」（感謝 <a href="http://code.google.com/p/cwtex-q-fonts/issues/detail?id=2"><code>pswo10680@gmail.com</code> 的回報</a>）。</li>
+</ul>
+
+<h2>Version 0.3</h2>
+<ul>
+<li>Jul. 10, 2014 釋出。</li>
+<li>在 SVN 中不再更新 TTF 字型檔；TTF 字型檔取得方法請見「下載字型檔」一節內容。</li>
+<li>將所有漢字及中文常用符號（U+3000—301E、U+4E00—9FFF、U+F900—FAFF 及 U+FE30—FFFF）複製至新字型檔並以 SIL Open Font License (Version 1.1) 授權釋出。</li>
 </ul>
 
 </body>
