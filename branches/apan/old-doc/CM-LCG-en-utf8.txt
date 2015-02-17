@@ -1,0 +1,219 @@
+=========================================================================
+CM-LGC font package
+version 0.2 (March 20, 2003)
+
+Copyright (c) 2003 Alexej Kryukov <basileia@yandex.ru>.
+
+This package is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+As a special exception, permission is granted to include these font
+programs in a Postscript or PDF file that consists of a document that
+contains text to be displayed or printed using these fonts, regardless
+of the conditions or license applying to the document itself.
+
+This package is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+Abstract
+~~~~~~~~
+
+The CM-LGC package contains Type 1 fonts converted from METAFONT
+sources of the Computer Modern font families. The following encodings
+are supported: T1, T2A (Cyrillic), LGR (Greek) and TS1. This package
+includes also Unicode virtual fonts for use with Omega/Lambda.
+
+See the file INSTALL for installation instructions for teTeX, TeX Live,
+MikTeX or VTeX/Free systems.
+
+PLEASE read the files README and INSTALL carefully before reporting 
+problems.
+
+The goal of the package
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Thanks to Peter Szabo's excellent TeXtrace program it is easy
+to convert METAFONT sources to the Type 1 format. There are some
+Type 1 font packages based on the Computer Modern font families 
+already available on the Web. I have to mention here excellent 
+CM-SUPER font package by Vladimir Volovich, which covers all
+European and Cyrillic writings. So you can ask me, why not to
+use already existing font packages instead of making new one.
+Here the reasons which made me to undertake this work one more
+time:
+
+1. All font packages designed as a replacement for METAFONT
+sources try to include maximal possible number of fonts. Usually
+for each size of each family and shape different pfb files
+are provided. This increases the size of whole package enormously.
+For example, the CM-SUPER fonts requires (with afm files) more 
+than 100 Mb free disk space.
+
+The CM-LGC package *not* replaces standard METAFONT files. 
+Although it is based on the Computer Modern font families,
+I renamed the font files in order to avoid name clashes. Since
+CM-LGC is designed as a separate package, it includes only
+minimal set of fonts, which, however, should be sufficient for 
+regular work.
+
+2. There were no publicly available font packages including
+Type 1 versions of Claudio Beccari's Greek fonts. CM-LGC is
+first Type 1 font package for LaTeX which supports all 
+European scripts (LGC means `Latin, Greek and Cyrillic').
+
+3. Since CM-LGC is not so huge as other CM-based font packages,
+it was easy to accomplish it with Unicode virtual fonts
+(*.ovf files) for Omega. CM-LGC is first free alternative font
+package which may be used with Omega/Lambda.
+
+4. Type 1 fonts converted from the METAFONT sources are usually
+not suitable for use outside of TeX, since they preserve their 
+TeX-specific encodings. The only exception is CM-SUPER fonts
+by Vladimir Volovich, which use Unicode encoding. However,
+even Unicode Type 1 fonts are useful only with Unix systems,
+but not with MS Windows (under ATM).
+
+CM-LGC is the first font package, which provides CM-like fonts
+with standard (not TeX-specific) 8-bit codepages. For each font
+family the following codepages are supported:
+
+-- Adobe Standard (which, of course, is never used by itself, but
+always reencoded to MICROSOFT-ANSI by ATM and to ISO8859-1 by 
+XWindow system);
+
+-- WINDOWS-1251 (Cyrillic);
+
+-- PARATYPE-CP154 (Cyrilic Asian);
+
+-- UNITYPE WINLANGUAGE, also known as PARATYPE-CP122 (Polytonic 
+Greek).
+
+Glyphs from the physical pfb files are combined to TeX-specific
+codepages with virtual fonts, which are prepared by the same 
+way, as, for example, the virtual fonts from the psnfss collection.
+Of course, this means that CM-LGC lacks some rarely used glyphs,
+present in the original CM fonts. However, the following TeX
+codepages are fully supported: T1, T2A and LGR.
+
+Font Naming System
+~~~~~~~~~~~~~~~~~~
+
+Since the CM-LGC fonts are designed to be suitable for use in
+WYSIWYG applications under MS Windows (with ATM) or X-Window
+system, it was necessary to provide meaningful names for them.
+Here the elements used to build the PostScript font names for
+each font family and shape:
+
+-- the font family itself (CMRoman/CMSans/CMTypewriter);
+
+-- the script name for non-Latin fonts (Cyrillic, Asian (for
+Asian Cyrillic) or Greek);
+
+-- the font weight and shape (Regular/Italic/Bold/BoldItalic).
+The CMSans font family includes "Slanted" shape instead of
+"Italic" and "BoldSlanted" instead of "BoldItalic";
+
+-- the last name element is the "SC" letters for small caps
+fonts or the "OsF" letters for italic fonts with old style 
+numerals.
+
+Font File Names
+~~~~~~~~~~~~~~~
+
+The font files are named according to Karl Berry's font naming 
+scheme, usually used in TeX for Type 1 fonts. The first
+letter, which should represent a font foundry, is always
+`f' (i. e. `free'/public). Next two letters are font family 
+codes. I used `cm' for "Computer Modern", `cs' for "Computer
+Modern Sans" and `ct' for "Computer Modern Typewriter.
+
+The fourth and fifth letters in the font name correspond to 
+font weight and shape. Here the list of font weights and shapes 
+available in the CM-LGC fonts:
+
+r	Regular;
+ri	Regular Italic;
+ro	Regular Slanted;
+rc	Regular Small Caps;
+b	Bold;
+bi	Bold Italic;
+bo	Bold Slanted;
+bc	Bold Small Caps.
+
+Next letter may represent a font variant. I used `j' for
+Italic fonts with Old Style digits.
+
+The last two letters in the font name represent font encodings.
+This part is the mos problematic, since there are no standard 
+conventions determining which letters should be used for Cyrillic 
+or Greek encodings. Here the list of font encodings used in
+CM-LGC fonts:
+
+8a	Adobe Standard;
+8r	Latin raw font encoding (which, however, is slightly
+	different from standard 8r);
+8t	Latin TeX font encoding, i. e. T1;
+6z	Cyrillic raw font encoding (windows-1251);
+6y	Asian Cyrillic raw font encoding (paratype-cp1254);
+6a	Cyrillic TeX font encoding, i. e. T2A;
+pg	Greek raw font encoding (paratype-cp122);
+gr	Greek TeX font encoding (LGR);
+ut	Unicode-based encoding for Omega's ovf
+	files (UT1).
+	
+For example, the font name `fctrijpg.pfb' means "Computer 
+Modern Typewriter font with regular weight and italic shape, 
+containing old style numerals and using the Greek 
+paratype-cp122 codepage".
+
+Installation
+~~~~~~~~~~~~
+
+See the INSTALL file for installation instrustions.
+
+Using CM-LGC with LaTeX
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Just put in your LaTeX preamble the following line:
+
+\usepackage{cmlgc}
+
+This will set you default Roman font to fcm, your Sans Serif
+font to fcs, and your Typewriter font to fct.
+
+Using CM-LGC with Omega/Lambda
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Unfortunately, last Omega releases doesn't provide any
+high-level commands for working with multilingual document.
+That's why I provided alternative language support package
+for Omega, called ANTOMEGA.
+
+Note that the Unicode virtual fonts, included in the CM-LGC
+package, are not fully compatible with Yannis Haralambous'
+omlgc font (which really uses a font-specific encoding).
+ANTOMEGA provides special features for handling strict Unicode
+fonts, and using it instead of the standard omega.sty file
+is strongly recommended.
+
+The CM-LGC package includes antcmlgc.sty file, designed 
+specially for ANTOMEGA. If you use both ANTOMEGA and CM-LGC,
+load it in your preamble instead of cmlgc.sty.
+
+Thanks
+~~~~~~
+
+I'd like to thank Peter Szabo for TeXtrace, Martin Weber for
+AutoTrace, and George Williams for his escellent pfaedit program,
+which I used for optimizing Type 1 font files.
+
+Happy TeXing!
+=========================================================================

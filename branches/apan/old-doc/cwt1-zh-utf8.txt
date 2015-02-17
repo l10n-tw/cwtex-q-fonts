@@ -1,0 +1,65 @@
+cwTeX[1] Unicode Type 1 字型（cwt1）for LaTeX CJK
+Version 1.0
+http://cle.linux.org.tw/fonts/cwttf/type1
+ftp://cle.linux.org.tw/pub/fonts/cwttf/type1/
+
+Copyright (c) 1999,2004 Tsong-Min Wu, Tsong-Huey Wu.
+Copyright (c) 2005 Tsong-Min Wu, Tsong-Huey Wu and Edward G.J. Lee.
+
+這套字型的使用許可證（License）是 GNU GPL 第二版或以後的版本（詳請見
+COPYING 檔）。可自由重製、修改、散佈。如果沒有收到這個 COPYING 檔，
+可至 http://www.gnu.org/licenses/gpl.txt 取得。或寫信至自由軟體基金會：
+
+Free Software Foundation
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+索取。
+
+這些字型允許嵌入 ps/pdf（及其他相類的）檔案中而不因此影響文件或文件
+格式本身所使用的授權（許可證）。
+
+這些字型並不明示或暗示有任何的保證，請詳見 COPYING 檔。
+
+
+摘要：
+-----
+
+這五套 Type1 字型是由 cwttf[2] 字型轉換而來。用於 LaTeX CJK
+套件。請勿用於原 cwTeX 系統。
+
+CJK 字型檔名   中文字體      FontName
+
+[以下為 Big5 環境]
+cwming         明體          cwminXX
+cwkai          楷書          cwkaiXX
+cwfs           仿宋體        cwfsXX
+cwheib         粗黑體        cwheibXX
+cwyen          圓體          cwyenXX
+
+[以下為 UTF-8 環境]
+cwmu           明體          cwmuXX
+cwku           楷書          cwkuXX
+cwfsu          仿宋體        cwfsuXX
+cwhbu          粗黑體        cwhbuXX
+cwyu           圓體          cwyuXX
+[Note] XX 是 subfont 的編號。這些無需理會，LaTeX CJK 會自行處理。
+
+這套字型有兩種形式。center 目錄下的標點符號為置中，以符合中小學
+校文件助讀的功能及一般的使用習慣。
+
+baseline 目錄下的字型，其中文全型標點符號的安排為置於和英文標點
+符號相配合的位置，對於中英混合橫排的文件會比較能取得一致性，且符
+號後留有一定的空白，以達標點符號的目的。
+
+問題回報請寄 Edward G.J. Lee <edt1023@cle.linux.org.tw>，謝謝！
+
+
+Enjoy it! :)
+
+
+
+
+Edward G.J. Lee <edt1023@cle.linux.org.tw>
+
+[1] http://ccms.ntu.edu.tw/~ntut019/cwtex/cwtex.html
+[2] http://cle.linux.org.tw/fonts/cwttf/

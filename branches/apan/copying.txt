@@ -1,0 +1,29 @@
+Copyright (c) 1999-2004,
+  Tsong-Min Wu <ntut019@ccms.ntu.edu.tw> and
+  Tsong-Huey Wu <thwu@mail.chna.edu.tw>,
+  with Reserved Font Name cwTeX[1] TrueType font(cwttf).
+
+Copyright (c) 2005-2007,
+  Tsong-Min Wu <ntut019@ccms.ntu.edu.tw>,
+  Tsong-Huey Wu <thwu@mail.chna.edu.tw> and
+  Edward G.J. Lee <edt1023@cle.linux.org.tw>,
+  with Reserved Font Name cwTeX[1] TrueType font(cwttf).
+
+Copyright (c) 2008-2014,
+  Tsong-Min Wu <ntut019@ccms.ntu.edu.tw>,
+  Tsong-Huey Wu <thwu@mail.chna.edu.tw>,
+  Edward G.J. Lee <edt1023@cle.linux.org.tw> and
+  Chen-Pan Liao <andrew.43@gmail.com>,
+  with Reserved Font Name "cwTeX Q Ming Medium", 
+  "cwTeX Q Hei Bold", "cwTeX Q Kai Medium", 
+  "cwTeX Q Yuan Medium" and "cwTeX Q Fangsong Medium".
+
+[1] http://ccms.ntu.edu.tw/~ntut019/cwtex/cwtex.html
+
+The license is GPL 2.0 or later,
+please read license.txt.
+
+As a special exception, permission is granted to include these font
+programs in a Postscript or PDF file that consists of a document that
+contains text to be displayed or printed using these fonts, regardless
+of the conditions or license applying to the document itself.

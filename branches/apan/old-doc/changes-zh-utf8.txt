@@ -1,0 +1,98 @@
+2005-01-10
+
+- cwttf version 1.0 release.
+
+2005-01-08
+
+- cwttf-v1.0 last checking.
+
+2005-01-05
+
+- prerelease cwttf-v1.0pre2 for testing.
+- tune line space and glyph width.
+
+2005-01-01
+
+- twheib/twyen use CM-LGC's sans serif font instead.
+
+2004-12-31
+
+- use compound glyph to build new Chinese glyph.
+
+2004-12-30
+
+- prerelease cwttf-v1.0pre1 for testing. fixed Windows XP Sp2 can
+  not install thos fonts.
+
+2004-12-27
+
+- merge Koanughi Un's Un-Fonts. Thanks to minihair
+  <minihair.bbs@.bbs.sayya.org> to infor the font information.
+
+2004-12-27
+
+- modify the Chinese full width punctuation. We prepair two kind
+  of release, one on the center, one at the baseline.
+- Thanks to Tsong-Min Wu, tiebob <tiebob@mail.slps.tpc.edu.tw>,
+  Starflty and Song Huang <Song@ossacc.org> to offer good opinions.
+
+2004-12-23
+
+- prelease cwming/cwkai/cwheib TTF v1.0 beta2.
+
+2004-12-21
+
+- prelease cwming.ttf v1.0 beta1 for testing. merge Alexej Kryukov's
+  <basileia@yandex.ru> CM-LGC Type 1 font.
+
+2004-12-20
+
+- prelease cwming.ttf v1.0 alpha4 for testing.
+
+2004-12-19
+
+- prelease cwming.ttf v1.0 alpha1 for testing. tune the glyph width.
+
+2004-12-18
+
+- modify Chinese Type 1 font that FontForge cannot handle.
+- prelease cwkai.ttf v1.0 alpha for testing.
+
+2004-12-17
+
+- decide the name of those fonts,
+
+  MingTi
+  cwming.ttf
+  family/ps name：cwTeXMing
+
+  KaiTi
+  cwkai.ttf
+  family/ps name：cwTeXKai
+
+  FangSongTi
+  cwfsong.ttf
+  family/ps name：cwTeXFangSong
+
+  YenTi
+  cwyen.ttf
+  family/ps name：cwTeXYen
+
+  HeiTi(Bold)
+  cwheib.ttf
+  family/ps name：cwTeXHeiBold
+
+- write scripts to handle the font conversion. run on the nice
+  machine that Seventeen offered.
+
+2004-12-16
+
+- discus with Tsong-Min Wu about license. we use GNU GPL for convinent
+  distribute and modify.
+- find the missing glyph that don't in the original Type1 font.
+- we use George Williams's FontForge and Just van Rossum's TTX(fonttools)
+  to handle the conversion.
+
+2004-12-09
+
+- start trying convert cwTeX Chinese Type 1 font to TrueType font.
