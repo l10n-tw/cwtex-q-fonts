@@ -50,10 +50,11 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   *  [自 Google drive 直接下載](https://drive.google.com/folderview?id=0B0E2FRIvjDDobXhySmlKTkVLVUE&usp=sharing)
 
 ## 原始碼
-  * [Version 0.1](https://github.com/l10n-tw/cwtex-q-fonts/tree/302a296c20e6c1fac93397ab2a07a7ecfc7620c2)
-  * [Version 0.2](https://github.com/l10n-tw/cwtex-q-fonts/tree/20818c178acf50106316aa3fa6345240cd54d231) 
-  * [Version 0.2-1](https://github.com/l10n-tw/cwtex-q-fonts/tree/99eec76450b49dae3ffb3942a028cd939f8b8689)
-  * [Version 0.3](https://github.com/l10n-tw/cwtex-q-fonts/tree/06b279c47f4eab920ed26e798cb6014bfb5a80be)
+  * [Version 0.1](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.1)
+  * [Version 0.2](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.2)
+  * [Version 0.2-1](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.2-1)
+  * [Version 0.3](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.3)
+  * [Version 0.4](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.4)
 
 ## 沿革
 
