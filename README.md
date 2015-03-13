@@ -50,10 +50,10 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   *  [自 Google drive 直接下載](https://drive.google.com/folderview?id=0B0E2FRIvjDDobXhySmlKTkVLVUE&usp=sharing)
 
 ## 原始碼
-  * [http://code.google.com/p/cwtex-q-fonts/source/browse/trunk?r=28#trunk Version 0.1 (r28)] 
-  * [http://code.google.com/p/cwtex-q-fonts/source/browse/trunk?r=36#trunk Version 0.2 (r36)] 
-  * [http://code.google.com/p/cwtex-q-fonts/source/browse/trunk?r=39#trunk Version 0.2-1 (r39)] 
-  * [http://code.google.com/p/cwtex-q-fonts/source/browse/trunk?r=45#trunk Version 0.3 (r45)] 
+  * [Version 0.1](https://github.com/l10n-tw/cwtex-q-fonts/tree/302a296c20e6c1fac93397ab2a07a7ecfc7620c2)
+  * [Version 0.2](https://github.com/l10n-tw/cwtex-q-fonts/tree/20818c178acf50106316aa3fa6345240cd54d231) 
+  * [Version 0.2-1](https://github.com/l10n-tw/cwtex-q-fonts/tree/99eec76450b49dae3ffb3942a028cd939f8b8689)
+  * [Version 0.3](https://github.com/l10n-tw/cwtex-q-fonts/tree/06b279c47f4eab920ed26e798cb6014bfb5a80be)
 
 ## 沿革
 
@@ -71,7 +71,7 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
 
 ### Version 0.2-1
   * Mar 10, 2014 釋出。 
-  * 修正 cwTeX Q Yuan Medium 之字符「低」（感謝 [http://code.google.com/p/cwtex-q-fonts/issues/detail?id=2 pswo10680@gmail.com 的回報]）。
+  * 修正 cwTeX Q Yuan Medium 之字符「低」（感謝 [http://code.google.com/p/cwtex-q-fonts/issues/detail?id=2 pswo10680 @ Google Code 的回報]）。
 
 ### Version 0.3
 
