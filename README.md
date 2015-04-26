@@ -56,7 +56,7 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   * [Version 0.3](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.3)
   * [Version 0.4](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.4)
 
-請小心，0.3 版及先前版本之原始碼由 Google Code 自動轉換轉至 GitHub 時可能已發生失誤。我們不能保證 0.3 版及先前版本與 Google Code 之原始碼完全一致。若有意取得 0.3 版及先前版本之原始碼，請在 2015 年 1 月 25 日前至 https://code.google.com/p/cwtex-q-fonts/ 取得。
+請小心，0.3 版及先前版本之原始碼由 Google Code 自動轉換轉至 GitHub 時可能已發生失誤。我們不能保證 0.3 版及先前版本與 Google Code 之原始碼完全一致。若有意取得 0.3 版及先前版本之原始碼，請至 https://github.com/chenpanliao/cwtex-q-fonts-obsolute 取得。
 
 ## 沿革
 
