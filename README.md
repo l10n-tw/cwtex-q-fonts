@@ -89,3 +89,8 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   * Mar. 13, 2015 釋出。
   * 調整黑體字之中文標點符號，包括圓角改成方角，使字體風格更一致。
   * 從 Google Code 轉移至 GitHub。
+
+## TO DO LIST
+
+* 上傳 TTF 於 https://github.com/l10n-tw/cwtex-q-fonts-TTFs
+* 修正多個字符，見 http://hyperrate.com/thread.php?tid=31168#31168 中 IanHo 提出的意見。
