@@ -46,15 +46,12 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
 為方針所進行。
 
 
-## 下載
-  *  [自 Google drive 直接下載](https://drive.google.com/folderview?id=0B0E2FRIvjDDobXhySmlKTkVLVUE&usp=sharing)
+## 下載 TTF 字體
+  *  [<del>自 Google drive 直接下載</del>](https://drive.google.com/folderview?id=0B0E2FRIvjDDobXhySmlKTkVLVUE&usp=sharing)
+  *  https://github.com/l10n-tw/cwtex-q-fonts-TTFs/releases
 
-## 原始碼
-  * [Version 0.1](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.1)
-  * [Version 0.2](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.2)
-  * [Version 0.2-1](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.2-1)
-  * [Version 0.3](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.3)
-  * [Version 0.4](https://github.com/l10n-tw/cwtex-q-fonts/tree/v0.4)
+## 下載原始碼
+  *  https://github.com/l10n-tw/cwtex-q-fonts/releases
 
 請小心，0.3 版及先前版本之原始碼由 Google Code 自動轉換轉至 GitHub 時可能已發生失誤。我們不能保證 0.3 版及先前版本與 Google Code 之原始碼完全一致。若有意取得 0.3 版及先前版本之原始碼，請至 https://github.com/chenpanliao/cwtex-q-fonts-obsolute 取得。
 
