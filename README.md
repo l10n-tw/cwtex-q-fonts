@@ -39,7 +39,7 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
 備註：此授權之字體僅包含漢字部份與中文常用標點符號。
 
 ## 修正方針
-五個字體皆由 cwTeX Type 1 字型（簡稱為 cwt1）Version 1.1（見 [cwt1 1.1 釋出網頁](http://blog.bs2.to/post/EdwardLee/8355)）以 [FontForge](http://fontforge.sourceforge.net/) 組合而成。相較於 cwt1，已針對五種字體的中文常用標點符號做了調整，皆以
+五個字體皆由 cwTeX Type 1 字型（簡稱為 cwt1）Version 1.1（見 [cwt1 1.1 釋出網頁](http://blog.bs2.to/post/EdwardLee/8355)）以 [FontForge](http://fontforge.github.io/) 組合而成。相較於 cwt1，已針對五種字體的中文常用標點符號做了調整，皆以
   * 貼近基線；
   * 左, 右括號或引號分別向右、左集中；以及
   * 將漢字與符號之字寬統一
