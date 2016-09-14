@@ -337,3 +337,12 @@ proprietary programs.  If your program is a subroutine library, you may
 consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.
+
+As a special exception, if you create a document which uses this font, and
+embed this font or unaltered portions of this font into the document, this
+font does not by itself cause the resulting document to be covered by the
+GNU General Public License. This exception does not however invalidate any
+other reasons why the document might be covered by the GNU General Public
+License. If you modify this font, you may extend this exception to your version
+of the font, but you are not obligated to do so. If you do not wish to do so,
+delete this exception statement from your version.
