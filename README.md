@@ -70,7 +70,7 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   * 明體字極少數字符修正。
 
 ### Version 0.2-1
-  * Mar 10, 2014 釋出。 
+  * Mar 10, 2014 釋出。
   * 修正 cwTeX Q Yuan Medium 之字符「低」（感謝 [pswo10680 @ Google Code 的回報](http://code.google.com/p/cwtex-q-fonts/issues/detail?id=2)）。
 
 ### Version 0.3
@@ -89,5 +89,4 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
 
 ## TO DO LIST
 
-* 上傳 TTF 於 https://github.com/l10n-tw/cwtex-q-fonts-TTFs
 * 修正多個字符，見 http://hyperrate.com/thread.php?tid=31168#31168 中 IanHo 提出的意見。
