@@ -88,5 +88,3 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   * 從 Google Code 轉移至 GitHub。
 
 ## TO DO LIST
-
-* 修正多個字符，見 http://hyperrate.com/thread.php?tid=31168#31168 中 IanHo 提出的意見。
