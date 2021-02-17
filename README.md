@@ -87,7 +87,7 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   * 調整黑體字之中文標點符號，包括圓角改成方角，使字體風格更一致。
   * 從 Google Code 轉移至 GitHub。
 
-### Version 0.4
+### Version 0.41
 
   * Feb. 17, 2021 釋出。
   * Insert U+7740 (着) into Ming(ZH)-Medium from original cwTeXm74.pfb
