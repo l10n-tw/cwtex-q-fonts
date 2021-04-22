@@ -8,6 +8,10 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
 
 本專案所含之所有字型及其所有版本允許嵌入 PS、PDF 及其他相類的檔案中而不因此影響文件或文件格式本身所使用的授權（許可證）。
 
+### 版權爭議
+由於本專案內容的版權可能存有爭議（請見[《來源可能是盜版的開源字型，授權沒問題嗎？》討論串](https://github.com/l10n-tw/cwtex-q-fonts/issues/15)），我們建議，在可能存在法律風險的使用情境中避免使用本專案字體，並改以其它自由字體（例如 Google Noto Sans CJK 系列）取代之。
+
+
 ## 目的
 
 前人所發佈之 cwTeX 字型仍有許多不完美之處，例如字符的寬度或位置不統一。本計劃的主要目的是修正 cwTeX 字型，願能使字型達更高水準。
@@ -92,4 +96,3 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   * Feb. 17, 2021 釋出。
   * Insert U+7740 (着) into Ming(ZH)-Medium from original cwTeXm74.pfb
 
-## TO DO LIST
