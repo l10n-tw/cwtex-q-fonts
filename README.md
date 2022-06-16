@@ -96,3 +96,7 @@ cwTeX 字型最初是由 Tsong-Min Wu 及 Tsong-Huey Wu 於 1999 至 2004 年間
   * Feb. 17, 2021 釋出。
   * Insert U+7740 (着) into Ming(ZH)-Medium from original cwTeXm74.pfb
 
+### Version 0.42
+
+  * Jun. 16, 2022 釋出。
+  * Copy U+4E00 from cwTeXQFangsong-Medium.sfd to cwTeXQFangsongZH-Medium.sfd
